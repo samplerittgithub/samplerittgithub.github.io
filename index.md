@@ -7,11 +7,7 @@ title: Portfolio
 
 I build analytics systems focused on fraud detection, financial risk modelling, and operational performance optimisation.
 
-<hr class="sep">
-
-## Skills
-
-**Technical Skills:** Python, SQL, AWS, Power BI
+**Skills:** Python, SQL, Excel, AWS, Power BI
 
 <hr class="sep">
 
@@ -26,7 +22,7 @@ High-volume financial transaction modelling (6.3M+ records)
 - SMOTE vs class-weight comparison (training-only application)  
 - Precision, Recall, PR-AUC evaluation  
 - Threshold optimisation for recall-driven risk reduction  
-- Governance and model validation documentation  
+- Governance and model validation documentation
 
 <hr class="sep">
 
@@ -34,19 +30,37 @@ High-volume financial transaction modelling (6.3M+ records)
 
 ### Graduate Engineer Trainee (Data Analyst) | HCL Tech | Dec 2022 – Jun 2023 | Delhi, India
 
-- Processed large, multi-source operational and pricing datasets by cleaning, validating, and standardising raw inputs using Python (Pandas) and SQL to resolve missing values and schema inconsistencies, improving data reliability and reducing downstream reporting errors by 25%.  
-- Developed short-term pricing and trend forecasts by applying Linear Regression and time-based analysis on cleaned datasets, enabling more accurate forecasts and supporting data-driven pricing decisions for business stakeholders.  
-- Automated end-to-end data preparation, extraction, and reporting by integrating SQL pipelines, Python scripts, and Excel workflows and delivering insights via Power BI and Tableau dashboards, reducing manual processing time by 30% and accelerating decision-making for operations and management teams.
+- Processed large, multi-source operational and pricing datasets using Python (Pandas) and SQL, improving data reliability and reducing reporting errors by 25%.  
+- Built short-term pricing forecasts using regression and time-based analysis to support data-driven pricing decisions.  
+- Automated SQL pipelines, Python workflows, and Power BI dashboards, reducing manual processing time by 30%.
 
 <hr class="sep">
 
 ## Selected Projects
 
-### Cloud-Based Financial Risk Simulation Platform  
-Monte Carlo-based financial risk modelling with scalable architecture.
+<div class="project">
+  <div class="project-title">Cloud-Based Financial Risk Simulation Platform</div>
+  <p class="project-desc">Monte Carlo-based financial risk modelling with scalable architecture.</p>
+  <a class="repo-link" href="https://github.com/samplerittgithub/cloud-financial-risk-analysis-monte-carlo-simulations" target="_blank" rel="noopener">Repository</a>
+</div>
 
-### Multi-Aspect Sentiment Analysis (BERT + LSTM)  
-Aspect-level NLP modelling with threshold optimisation and performance benchmarking.
+<div class="project">
+  <div class="project-title">Multi-Aspect Sentiment Analysis (BERT + LSTM)</div>
+  <p class="project-desc">Aspect-level NLP modelling with threshold optimisation and performance benchmarking.</p>
+  <a class="repo-link" href="https://github.com/samplerittgithub/Multi-aspect-sentiment-analysis-using-BERT-and-LSTM" target="_blank" rel="noopener">Repository</a>
+</div>
+
+<div class="project">
+  <div class="project-title">Diabetes Prediction Analysis</div>
+  <p class="project-desc">Predictive modelling using structured classification workflows and evaluation metrics.</p>
+  <a class="repo-link" href="https://github.com/samplerittgithub/Diabetes-Prediction-Analysis" target="_blank" rel="noopener">Repository</a>
+</div>
+
+<div class="project">
+  <div class="project-title">Information Security Risk Assessment Framework</div>
+  <p class="project-desc">Risk evaluation aligned to governance and compliance frameworks.</p>
+  <a class="repo-link" href="https://github.com/samplerittgithub/Information-Security-for-Business-and-Government" target="_blank" rel="noopener">Repository</a>
+</div>
 
 <hr class="sep">
 
