@@ -1,5 +1,5 @@
 :root{
-  --accent:#3b82f6;      /* light blue for your NAME only */
+  --accent:#3b82f6;      /* light blue used ONLY for your name (left) */
   --text:#111827;        /* professional black */
   --muted:#6b7280;
   --line:#e5e7eb;
@@ -45,7 +45,7 @@ body{
   margin:0;
   font-size: 22px;
   font-weight: 800;
-  color: var(--accent); /* only name gets light blue */
+  color: var(--accent); /* only name is light blue */
 }
 
 .tagline{
@@ -85,24 +85,23 @@ body{
   margin-top: 10px;
 }
 
-/* RIGHT SIDE TYPOGRAPHY */
+/* RIGHT SIDE (clean CV-style) */
 .right{
   font-size: 15.5px;
 }
 
-.right h2, .right h3{
-  color: var(--text);   /* headings black */
-  font-weight: 800;
-}
-
 .right h2{
-  margin-top: 34px;
+  color: var(--text);
+  font-weight: 800;
+  margin-top: 28px;
   margin-bottom: 10px;
   font-size: 26px;
 }
 
 .right h3{
-  margin-top: 14px;
+  color: var(--text);
+  font-weight: 800;
+  margin-top: 12px;
   margin-bottom: 6px;
   font-size: 18px;
 }
@@ -110,17 +109,48 @@ body{
 .right p{
   line-height: 1.65;
   max-width: 78ch;
+  margin: 0 0 12px 0;
 }
 
 .right ul{
   padding-left: 18px;
   line-height: 1.7;
+  margin-top: 6px;
 }
 
 .sep{
   border:0;
   border-top:1px solid var(--line);
-  margin: 22px 0;
+  margin: 18px 0;
+}
+
+/* Project items (minimal) */
+.project{
+  margin: 14px 0 18px 0;
+}
+
+.project-title{
+  font-weight: 800;
+  margin: 0 0 4px 0;
+  color: var(--text);
+}
+
+.project-desc{
+  margin: 0;
+  color: var(--text);
+}
+
+.repo-link{
+  display: inline-block;
+  margin-top: 6px;
+  font-size: 13px;
+  color: var(--muted);
+  text-decoration: none;
+}
+
+.repo-link:hover{
+  color: var(--text);
+  text-decoration: underline;
 }
 
 @media (max-width: 860px){
