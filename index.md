@@ -11,7 +11,7 @@ I build analytics systems focused on fraud detection, financial risk modelling, 
 
 <hr class="sep">
 
-## Flagship Project
+## Project
 
 ### Production-Oriented Fraud Risk Detection System
 
@@ -66,6 +66,6 @@ High-volume financial transaction modelling (6.3M+ records)
 
 ## Certification
 
-**Microsoft Certified – Power BI Data Analyst Associate (In Progress)**
+**Microsoft Certified – Power BI Data Analyst Associate 
 
 Advanced data modelling, DAX optimisation, and stakeholder-facing dashboard development.
